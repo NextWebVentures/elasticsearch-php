@@ -1,5 +1,5 @@
 {
-  "name": "elasticsearch/elasticsearch",
+  "name": "NextWebVentures/elasticsearch",
   "description": "PHP Client for Elasticsearch",
   "keywords": ["search","client", "elasticsearch"],
   "type": "library",
@@ -39,5 +39,8 @@
       "type": "vcs",
       "url": "https://github.com/polyfractal/Yaml"
     }
-  ]
+  ],
+  "replace": {
+    "elasticsearch/elasticsearch":"self.version"
+  }
 }
